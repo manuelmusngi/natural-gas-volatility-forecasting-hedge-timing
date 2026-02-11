@@ -4,7 +4,6 @@ A **research‑driven, production‑ready analytics framework** for forecasting 
 
 This project integrates **fundamentals, storage dynamics, and market structure** into a modular Python pipeline designed for quantitative research, risk management, and trading decision support.
 
----
 
 #### 📌 Project Objective
 Build an end‑to‑end volatility forecasting system that:
@@ -12,7 +11,6 @@ Build an end‑to‑end volatility forecasting system that:
 - Identifies **volatility regimes** relevant for hedge timing
 - Bridges **academic research** and **real‑world risk workflows**
 
----
 
 #### 🧠 Research Foundation
 Grounded in peer‑reviewed and working‑paper literature on natural gas markets, storage dynamics, and volatility modeling, including:
@@ -22,7 +20,6 @@ Grounded in peer‑reviewed and working‑paper literature on natural gas market
 
 The implementation reflects a **reduced‑form, data‑driven interpretation** of these models suitable for operational use.
 
----
 
 #### 🧩 Pipeline Architecture
 A modular, notebook‑centric design that mirrors production analytics systems:
@@ -45,9 +42,8 @@ A modular, notebook‑centric design that mirrors production analytics systems:
 - **Risk Interpretation** ⚖️  
   Linking volatility forecasts to P&L dispersion and risk views
 
----
 
-#### 📂 Project Structure Alignment
+#### 📂 Project Alignment
 Designed for clarity, extensibility, and reproducibility:
 
 ng-vol-forecasting/\
