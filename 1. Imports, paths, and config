@@ -1,0 +1,22 @@
+import os
+from pathlib import Path
+from dataclasses import dataclass
+
+import numpy as np
+import pandas as pd
+import yaml
+
+from sklearn.model_selection import TimeSeriesSplit
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_squared_error
+
+import statsmodels.api as sm
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+plt.style.use("seaborn-v0_8")
+
+PROJECT_ROOT = Path(".").resolve()
+DATA_RAW = PROJECT_ROOT / "data" / "raw"
+DATA_PROCESSED = PROJECT_ROOT / "data" / "processed"
+CONFIG_DIR = PROJECT_ROOT / "config"
