@@ -1,0 +1,11 @@
+#### 3. Feature engineering
+
+Construct:
+
+- Realized volatility (5d, 10d) from log returns
+- Futures curve shape metrics
+- Storage surprise proxies
+- Fundamentals deltas
+- Weather anomalies
+
+Target: future realized volatility over a configurable horizon.
