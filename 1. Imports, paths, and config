@@ -21,7 +21,7 @@ DATA_RAW = PROJECT_ROOT / "data" / "raw"
 DATA_PROCESSED = PROJECT_ROOT / "data" / "processed"
 CONFIG_DIR = PROJECT_ROOT / "config"
 
-#### Config Loader
+# Config Loader
 
 def load_yaml_config(path: Path) -> dict:
     with open(path, "r") as f:
