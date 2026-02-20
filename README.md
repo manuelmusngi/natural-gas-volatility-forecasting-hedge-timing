@@ -121,7 +121,7 @@ ng-volatility-forecasting/\
 └── tests/\
     ├── test_ingestion.py\
     ├── test_features.py\
-    └── test_models.py\
+    └── test_models.py
 
 
 #### License
